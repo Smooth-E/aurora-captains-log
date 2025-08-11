@@ -5,8 +5,8 @@
 [Desktop Entry]
 Type=Application
 X-Nemo-Application-Type=silica-qt5
-Icon=harbour-captains-log
-Exec=harbour-captains-log
+Icon=moe.smoothie.captainslog
+Exec=moe.smoothie.captainslog
 Name=Captain's Log
 
 # TRANSLATORS
@@ -17,12 +17,9 @@ Name=Captain's Log
 # please test it before submitting your translation.
 Name[de]=Captain's Log
 Name[fi]=Lokikirja
+Name[ru]=Бортовой журнал
 
 [X-Sailjail]
 Permissions=Documents
-OrganizationName=harbour-captains-log
-ApplicationName=harbour-captains-log
-
-[X-HarbourBackup]
-BackupPathList=.local/share/harbour-captains-log/
-BackupConfigList=/apps/harbour-captains-log/
+OrganizationName=moe.smoothie
+ApplicationName=captainslog

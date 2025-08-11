@@ -7,7 +7,6 @@
 #
 
 import os
-import sqlite3
 import re
 import unicodedata
 import shutil
@@ -26,6 +25,11 @@ from dataclasses import dataclass
 from pathlib import Path
 from datetime import datetime
 from datetime import timedelta
+
+# Standeard import statement for sqlite3 will trigger python3dist(sqlite3) dependecy to be added,
+# which is not allowed for user apps on Aurora OS
+sqlite3 = __import__('sqlite3', globals(), locals(), [], 0)
+
 
 try:
     import pyotherside

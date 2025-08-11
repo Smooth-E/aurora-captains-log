@@ -13,9 +13,9 @@
 #   - translation filenames have to be changed
 
 # The name of your application
-TARGET = harbour-captains-log
+TARGET = moe.smoothie.captainslog
 
-CONFIG += sailfishapp c++11
+CONFIG += auroraapp c++11
 # LIBS += -licui18n -licuuc  <<< not allowed in Harbour
 
 SOURCES += \
@@ -44,20 +44,20 @@ DISTFILES += \
     rpm/harbour-captains-log.spec \
     rpm/harbour-captains-log.yaml \
     translations/*.ts \
-    harbour-captains-log.desktop \
+    moe.smoothie.captainslog.desktop \
     \
     qml/qchart/*.qml \
     qml/qchart/*.js \
 
-SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
+AURORAAPP_ICONS = 86x86 108x108 128x128 172x172
 
 # to disable building translations every time, comment out the
 # following CONFIG line
-CONFIG += sailfishapp_i18n
+CONFIG += auroraapp_i18n
 
 # Do not forget to modify the localized app name
 # in the the .desktop file.
-TRANSLATIONS = translations/harbour-captains-log-*.ts \
+TRANSLATIONS = translations/moe.smoothie.captainslog-*.ts \
 
 QML_IMPORT_PATH += qml/modules
 

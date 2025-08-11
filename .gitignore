@@ -1,0 +1,12 @@
+# Generated files
+*.o
+Makefile
+moc_*.cpp
+requires_defines.h
+documentation.list
+RPMS
+.mb2
+translations/*.qm
+
+# Compiled app binary
+moe.smoothie.captainslog
