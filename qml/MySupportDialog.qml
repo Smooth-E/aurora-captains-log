@@ -2,6 +2,7 @@
  * This file is part of Captain's Log.
  * SPDX-License-Identifier: GPL-3.0-or-later
  * SPDX-FileCopyrightText: 2024 Mirian Margiani
+ * SPDX-FileCopyrightText: 2025 Smooth-E
  */
 
 import QtQuick 2.0
@@ -16,18 +17,25 @@ SupportDialog {
                           "of pizza, or a ticket to the theater.")
         link: "https://liberapay.com/ichthyosaurus"
     }
-
+ 
     SupportAction {
-        icon: SupportIcon.Weblate
-        title: qsTr("Translate on Weblate")
-        description: qsTr("Help with translating this app in as many " +
-                          "languages as possible.")
-        link: "https://hosted.weblate.org/projects/harbour-captains-log"
+        icon: SupportIcon.Liberapay
+        title: qsTr("Support port maintainer")
+        description: qsTr("Support Aurora OS port maintainer by donating through Boosty.")
+        link: "https://boosty.to/smooth-e/donate"
     }
+
+    // SupportAction {
+    //     icon: SupportIcon.Weblate
+    //     title: qsTr("Translate on Weblate")
+    //     description: qsTr("Help with translating this app in as many " +
+    //                       "languages as possible.")
+    //     link: "https://hosted.weblate.org/projects/harbour-captains-log"
+    // }
 
     SupportAction {
         icon: SupportIcon.Git
-        title: qsTr("Develop on Github")
+        title: qsTr("Develop on GitHub")
         description: qsTr("Support with maintenance and packaging, " +
                           "write code, or provide valuable bug reports.")
         link: "https://github.com/ichthyosaurus/harbour-captains-log"

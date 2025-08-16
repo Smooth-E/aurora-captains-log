@@ -1,6 +1,7 @@
 /*
  * This file is part of Captain's Log.
  * SPDX-FileCopyrightText: 2020-2024 Mirian Margiani
+ * SPDX-FileCopyrightText: 2025 Smooth-E
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -23,27 +24,39 @@ A.AboutPageBase {
     id: root
 
     appName: appWindow.appName
-    appIcon: Qt.resolvedUrl("../images/%1.png".arg(Qt.application.name))
+    appIcon: Qt.resolvedUrl("../images/harbour-captains-log.png")
     appVersion: APP_VERSION
     appRelease: APP_RELEASE
 
     allowDownloadingLicenses: false
-    sourcesUrl: "https://github.com/ichthyosaurus/%1".arg(Qt.application.name)
-    homepageUrl: "https://forum.sailfishos.org/t/apps-by-ichthyosaurus/15753"
-    translationsUrl: "https://hosted.weblate.org/projects/%1".arg(Qt.application.name)
+    sourcesUrl: "https://github.com/Smooth-E/aurora-captains-log"
+    // homepageUrl: "https://forum.sailfishos.org/t/apps-by-ichthyosaurus/15753"
+    // translationsUrl: "https://hosted.weblate.org/projects/%1".arg(Qt.application.name)
     changelogList: Qt.resolvedUrl("../Changelog.qml")
     licenses: A.License { spdxId: "GPL-3.0-or-later" }
 
-    donations.text: donations.defaultTextCoffee
+    donations.text: qsTr("If you found this app helpfull, feel welcome to support the original "
+                         + "developer or the Aurora OS port maintainer by donating.")
+
     donations.services: [
         A.DonationService {
-            name: "Liberapay"
+            name: qsTr("App dev's Liberapay")
             url: "https://liberapay.com/ichthyosaurus"
+        },  
+        A.DonationService {
+            name: qsTr("Port maintainer's Boosty")
+            url: "https://boosty.to/smooth-e/donate"
         }
     ]
 
     description: qsTr("A simple diary application for keeping track of your thoughts.")
-    mainAttributions: ["2020-%1 Mirian Margiani".arg((new Date()).getFullYear()), "2020 Gabriel Berkigt"]
+    
+    mainAttributions: [
+        "2025 Smooth-E",
+        "2020-%1 Mirian Margiani".arg((new Date()).getFullYear()),
+        "2020 Gabriel Berkigt"
+    ]
+
     autoAddOpalAttributions: true
 
     attributions: [
@@ -79,6 +92,10 @@ A.AboutPageBase {
         A.ContributionSection {
             title: qsTr("Development")
             groups: [
+                A.ContributionGroup {
+                    title: qsTr("Aurora OS Port")
+                    entries: ["Smooth-E"]
+                },
                 A.ContributionGroup {
                     title: qsTr("Programming")
                     entries: ["Mirian Margiani", "Gabriel Berkigt"]
