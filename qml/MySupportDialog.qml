@@ -19,7 +19,7 @@ SupportDialog {
     }
  
     SupportAction {
-        icon: SupportIcon.Liberapay
+        icon: Qt.resolvedUrl("./images/boosty.png")
         title: qsTr("Support port maintainer")
         description: qsTr("Support Aurora OS port maintainer by donating through Boosty.")
         link: "https://boosty.to/smooth-e/donate"
