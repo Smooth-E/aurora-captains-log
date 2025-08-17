@@ -1,7 +1,17 @@
 {
+    "files.associations": {
+        "*.ts": "xml",
+        "*.desktop": "ini",
+        "*.spec": "shellscript",
+        "*.pro": "shellscript"
+    },
     "cSpell.words": [
         "boosty",
         "Jolla",
-        "Mirian"
+        "Mirian",
+        "numerus",
+        "numerusform",
+        "Pandoc",
+        "Sailjail"
     ]
 }

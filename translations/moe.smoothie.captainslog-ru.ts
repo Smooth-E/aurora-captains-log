@@ -16,7 +16,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="38"/>
         <source>If you found this app helpfull, feel welcome to support the original developer or the Aurora OS port maintainer by donating.</source>
-        <translation>Если вы нашли данное приложение полезным, поддержите автора оригинала или разрбоатчика порта под ОС Аврора монетой.</translation>
+        <translation>Если вы нашли данное приложение полезным, поддержите автора оригинала или разработчика порта под ОС Аврора монетой.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="47"/>

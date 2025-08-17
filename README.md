@@ -71,5 +71,5 @@ SPDX-License-Identifier: GFDL-1.3-or-later
 Бортовой журнал - свободное программное обеспечение, которое распространяется под лицензией 
 [GNU General Public License v3 (or later)](https://spdx.org/licenses/GPL-3.0-or-later.html).
 Исходный код доступен [на Github](https://github.com/Smooth-E/aurora-captains-log).
-Вся сопутствующая документация распостраняется под лицензией 
+Вся сопутствующая документация распространяется под лицензией 
 [GNU Free Documentation License v1.3 (or later)](https://spdx.org/licenses/GFDL-1.3-or-later.html).
