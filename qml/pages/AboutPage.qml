@@ -35,7 +35,7 @@ A.AboutPageBase {
     changelogList: Qt.resolvedUrl("../Changelog.qml")
     licenses: A.License { spdxId: "GPL-3.0-or-later" }
 
-    donations.text: qsTr("If you found this app helpfull, feel welcome to support the original "
+    donations.text: qsTr("If you found this app helpful, feel welcome to support the original "
                          + "developer or the Aurora OS port maintainer by donating.")
 
     donations.services: [

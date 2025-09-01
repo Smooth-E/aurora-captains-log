@@ -14,11 +14,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="38"/>
-        <source>If you found this app helpfull, feel welcome to support the original developer or the Aurora OS port maintainer by donating.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../qml/pages/AboutPage.qml" line="47"/>
         <source>Port maintainer&apos;s Boosty</source>
         <translation type="unfinished"></translation>
@@ -91,6 +86,11 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="165"/>
         <source>German</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="38"/>
+        <source>If you found this app helpful, feel welcome to support the original developer or the Aurora OS port maintainer by donating.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
