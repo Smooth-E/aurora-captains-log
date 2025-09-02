@@ -1,7 +1,8 @@
 # This file is part of Captain's Log.
-# SPDX-License-Identifier: GPL-3.0-or-later
 # SPDX-FileCopyrightText: 2020 Gabriel Berkigt
 # SPDX-FileCopyrightText: 2020-2024 Mirian Margiani
+# SPDX-FileCopyrightText: 2025 Smooth-E
+# SPDX-License-Identifier: GPL-3.0-or-later
 
 # Application name defined in TARGET has a corresponding QML filename.
 # If name defined in TARGET is changed, the following needs to be done
@@ -16,14 +17,12 @@
 TARGET = moe.smoothie.captainslog
 
 CONFIG += auroraapp c++11
-# LIBS += -licui18n -licuuc  <<< not allowed in Harbour
 
 SOURCES += \
     src/harbour-captains-log.cpp \
     src/qmltypes.cpp \
     src/tagsfilter.cpp \
     src/selectable_sfpm.cpp \
-    # src/transliterator.cpp \
 
 HEADERS += \
     src/property_macros.h \
@@ -42,7 +41,6 @@ DISTFILES += \
     rpm/harbour-captains-log.changes.in \
     rpm/harbour-captains-log.changes.run.in \
     rpm/harbour-captains-log.spec \
-    rpm/harbour-captains-log.yaml \
     translations/*.ts \
     moe.smoothie.captainslog.desktop \
     \
@@ -61,9 +59,8 @@ TRANSLATIONS = translations/moe.smoothie.captainslog-*.ts \
 
 QML_IMPORT_PATH += qml/modules
 
-# Note: version number is configured in yaml
-DEFINES += APP_VERSION=\\\"$$VERSION\\\"
-DEFINES += APP_RELEASE=\\\"$$RELEASE\\\"
+DEFINES += APP_VERSION=\\\"4.2.1.1\\\"
+DEFINES += APP_RELEASE=\\\"1\\\"
 include(libs/opal-cached-defines.pri)
 
 # Build submodules

@@ -1,6 +1,7 @@
 /*
  * This file is part of harbour-captains-log.
  * SPDX-FileCopyrightText: Mirian Margiani
+ * SPDX-FileCopyrightText: 2025 Smooth-E
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -8,6 +9,17 @@ import QtQuick 2.0
 import "modules/Opal/About"
 
 ChangelogList {
+    ChangelogItem {
+        version: "4.2.1.1-1"
+        date: "2025-09-03"
+        paragraphs: [
+            "- Первый релиз для ОС Аврора<br>" +
+            "- Улучшено представление страницы ввода пин-кода<br>" +
+            "- Добавлена информация об соавторстве<br>" +
+            "- Иконка приложения стала квадратной, чтобы соответствовать стилю ОС Аврора"
+        ]
+    }
+
     ChangelogItem {
         version: "4.2.1-1"
         date: "2025-06-29"

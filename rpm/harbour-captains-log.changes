@@ -1,10 +1,17 @@
 # This file is part of Captain's Log.
-# SPDX-License-Identifier: GPL-3.0-or-later
 # SPDX-FileCopyrightText: 2021-2023 Mirian Margiani
+# SPDX-FileCopyrightText: 2025 Smooth-E
+# SPDX-License-Identifier: GPL-3.0-or-later
 #
 # FORMAT:
 # * date Author's Name <author's email> version-release
 # - Summary of changes
+
+* Wed Sep  3 2025 Smooth-E <smoothie@disroot.org> 4.2.1.1-1
+- Первая версия для ОС Аврора
+- Улучшено представление страницы ввода пин-кода
+- Добавлена информация об соавторстве
+- Иконка приложения стала квадратной, чтобы соответствовать стилю ОС Аврора
 
 * Sun Jun 29 2025 Mirian Margiani <mixosaurus+ichthyo@pm.me> 4.2.1-1
 - Updated translations: Chinese, Estonian, Finnish, Russian, Swedish, Tamil, Ukrainian
