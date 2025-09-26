@@ -65,3 +65,28 @@ include(libs/opal-cached-defines.pri)
 
 # Build submodules
 include(libs/SortFilterProxyModel/SortFilterProxyModel.pri)
+
+# Vendor libraries
+
+libdir = /usr/share/$$TARGET/lib
+libexecdir = /usr/libexec/$$TARGET
+
+equals(QT_ARCH, arm64) {
+    vendor = vendor/aarch64
+}
+equals(QT_ARCH, armv7l) {
+    vendor = vendor/armv7hl
+}
+
+python_bin.path = $$libexecdir
+python_bin.files = $$vendor/bin/python3 \
+                   $$vendor/bin/python3.13
+
+python_lib.path = $$libdir
+python_lib.files = $$vendor/lib/python3.13 \
+                   $$vendor/lib/lib*
+
+pyotherside.path = $$libdir/
+pyotherside.files = $$vendor/usr/lib64/qt5
+
+INSTALLS += python_bin python_lib pyotherside

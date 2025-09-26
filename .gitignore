@@ -9,5 +9,11 @@ RPMS
 .mb2
 translations/*.qm
 
+# Logs
+*.log
+
+# Compiled vendored libs
+vendor
+
 # Compiled app binary
 moe.smoothie.captainslog

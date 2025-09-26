@@ -3,6 +3,9 @@ Name:       moe.smoothie.captainslog
 # >> macros
 # << macros
 %define __provides_exclude_from ^%{_datadir}/.*$
+%define __requires_exclude (libpython3*|libpyside2*|libcrypt.*|libffi.*|python3dist|lib.*)
+
+%define _buildhost Aurora Build Engine
 
 Summary:    Простое приложение-дневник
 Version:    4.2.1.1
@@ -13,7 +16,6 @@ URL:        https://github.com/Smooth-E/aurora-captains-log
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-captains-log.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
-Requires:   pyotherside-qml-plugin-python3-qt5 >= 1.5.0
 BuildRequires:  pkgconfig(auroraapp) >= 1.0.3
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
@@ -58,6 +60,8 @@ desktop-file-install --delete-original       \
 %files
 %defattr(-,root,root,-)
 %{_bindir}/%{name}
+%{_libexecdir}/%{name}
+%defattr(644,root,root,-)
 %{_datadir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/*/apps/%{name}.png

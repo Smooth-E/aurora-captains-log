@@ -2,6 +2,7 @@
  * This file is part of Captain's Log.
  * SPDX-FileCopyrightText: 2021  Lukáš Karas
  * SPDX-FileCopyrightText: 2021-2022  Mirian Margiani
+ * SPDX-FileCopyrightText: 2025 Smooth-E
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -12,16 +13,28 @@
 
 int main(int argc, char *argv[])
 {
+    if (qputenv("PYTHONHOME", QString("/usr/share/moe.smoothie.captainslog/").toUtf8().constData())) {
+        qDebug() << "Successfully set python home";
+    } else {
+        qDebug() << "Failed to set python home";
+    }
+    
     QScopedPointer<QGuiApplication> app(Aurora::Application::application(argc, argv));
-    app->setOrganizationName("harbour-captains-log"); // needed for Sailjail
-    app->setApplicationName("harbour-captains-log");
+    app->setOrganizationName("moe.smoothie");
+    app->setApplicationName("captainslog");
 
     QScopedPointer<QQuickView> view(Aurora::Application::createView());
     view->rootContext()->setContextProperty("APP_VERSION", QString(APP_VERSION));
     view->rootContext()->setContextProperty("APP_RELEASE", QString(APP_RELEASE));
 
+    // Opal modules
     view->engine()->addImportPath(Aurora::Application::pathTo("qml/modules").toString());
+
+    // Vendored pyotherside
+    view->engine()->addImportPath(Aurora::Application::pathTo("lib/qt5/qml").toString());
+
     view->setSource(Aurora::Application::pathTo("qml/harbour-captains-log.qml"));
     view->show();
+
     return app->exec();
 }
