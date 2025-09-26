@@ -39,7 +39,7 @@ install_dependencies()
 	qt5-qttools-qtuitools-devel libqtwebkit5-widgets-devel \
 	qt5-qtscript-devel qt5-qttools-qthelp-devel \
 	qt5-qtwebsockets-devel qt5-qttest-devel \
-	qt5-qttools-qtuiplugin-devel || exit 1
+	qt5-qttools-qtuiplugin-devel sqlite-devel || exit 1
 }
 
 build_cpython()
@@ -60,7 +60,7 @@ build_cpython()
 
     # Build cpython with mb2
     sb2 -t $target bash -c "$build_flags && \
-	  ../configure --prefix=$(pwd)/../../../vendor/$arch --enable-shared --disable-test-modules --with-pydebug && \
+	  ../configure --prefix=$(pwd)/../../../vendor/$arch --enable-shared --enable-optimizations && \
 	  make -j$(nproc --all) && \
 	  make install || exit 1"
 
