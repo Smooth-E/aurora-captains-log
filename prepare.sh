@@ -8,6 +8,7 @@
 
 target=""
 arch=""
+cpython_enable_optimizations="--enable-optimizations"
 
 help()
 {
@@ -24,10 +25,13 @@ init_target_vars()
 	# Initialize the $target and $arch variables
 	target=$OPTARG
 	arch=$(echo ${target##*-})
-	# Cmake defines the architecture of target AuroraOS-5.1.1.60-base-armv7hl as armv7l.
-	# Need to rename it for the correct project building
+
 	if [ "$arch" = "armv7hl" ]; then
+        # Cmake defines the architecture of target AuroraOS-5.1.1.60-base-armv7hl as armv7l.
+	    # Need to rename it for the correct project building
 		arch="armv7l"
+        # Tests fail when building cpython with --enable-optimizations in Aurora Platform SDK 5.1.5.105 for armv7hl
+        cpython_enable_optimizations=""
 	fi
 }
 
@@ -60,7 +64,7 @@ build_cpython()
 
     # Build cpython with mb2
     sb2 -t $target bash -c "$build_flags && \
-	  ../configure --prefix=$(pwd)/../../../vendor/$arch --enable-shared --enable-optimizations && \
+	  ../configure --prefix=$(pwd)/../../../vendor/$arch --enable-shared $cpython_enable_optimizations && \
 	  make -j$(nproc --all) && \
 	  make install || exit 1"
 
@@ -79,7 +83,6 @@ build_pyotherside()
     cd build
 
     build_flags=$(sb2 -t $target rpm --eval '%set_build_flags')
-    # echo Obtained build flags: $build_flags
 
     sb2 -t $target bash -c " \
         echo Building pyotherside: build_flags... && \

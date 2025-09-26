@@ -71,12 +71,18 @@ include(libs/SortFilterProxyModel/SortFilterProxyModel.pri)
 libdir = /usr/share/$$TARGET/lib
 libexecdir = /usr/libexec/$$TARGET
 
+message(Building for architecture $$QT_ARCH)
 equals(QT_ARCH, arm64) {
     vendor = vendor/aarch64
+    lib_subdir = lib64
 }
-equals(QT_ARCH, armv7l) {
-    vendor = vendor/armv7hl
+# qmake in Aurora Platform SDK armv7hl prefix reports QT_ARCH as just arm...
+equals(QT_ARCH, arm) {
+    # But cmake, which we use for building cpython, reports it as armv7l
+    vendor = vendor/armv7l
+    lib_subdir = lib
 }
+message(Selected vendor dir $$vendor)
 
 python_bin.path = $$libexecdir
 python_bin.files = $$vendor/bin/python3 \
@@ -87,6 +93,6 @@ python_lib.files = $$vendor/lib/python3.13 \
                    $$vendor/lib/lib*
 
 pyotherside.path = $$libdir/
-pyotherside.files = $$vendor/usr/lib64/qt5
+pyotherside.files = $$vendor/usr/$$lib_subdir/qt5
 
 INSTALLS += python_bin python_lib pyotherside
