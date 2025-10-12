@@ -10,6 +10,10 @@ SPDX-License-Identifier: GFDL-1.3-or-later
 
 Бортовой журнал - простое приложение-дневник для записи ваших мыслей.
 
+| Ссылки для скачивания |
+| --- |
+| 📦 [RuStore для ОС Аврора](https://www.rustore.ru/osaurora) <br> 🛒 [Аврора Маркет](https://aurorarepos.ru/appitem/bortovoi-zurnal) <br> 😼 [Скачать RPM](https://github.com/Smooth-E/aurora-captains-log/releases/latest) |
+
 Этот репозиторий содержит модифицированный код версий 2.0.0 и новее приложения [Captain's Log для SailfishOS](https://github.com/ichthyosaurus/harbour-captains-log). Оригинальное приложение разрабатывалось [AlphaX2](https://github.com/AlphaX2/) и код предыдущих версий доступен [тут](https://github.com/AlphaX2/Captains-Log-Sailfish).
 
 ## Функционал
