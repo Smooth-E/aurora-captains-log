@@ -727,12 +727,12 @@
 <context>
     <name>PinPage</name>
     <message>
-        <location filename="../qml/pages/PinPage.qml" line="35"/>
+        <location filename="../qml/pages/PinPage.qml" line="32"/>
         <source>Please enter your security code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/PinPage.qml" line="78"/>
+        <location filename="../qml/pages/PinPage.qml" line="111"/>
         <source>please try again</source>
         <translation type="unfinished"></translation>
     </message>

@@ -27,9 +27,6 @@ import "../components"
 Page {
     id: page
 
-    readonly property bool isLandscape: orientation === Orientation.Landscape
-                                        || orientation === Orientation.LandscapeInverted
-
     property string expectedCode: ""
     property alias enteredCode: pinField.text
     property string title: qsTr("Please enter your security code")
@@ -37,13 +34,49 @@ Page {
     signal accepted
 
     allowedOrientations: Orientation.All
+    state: isLandscape ? "landscape" : "portrait"
+
+    states: [
+        State {
+            name: "landscape"
+
+            AnchorChanges {
+                target: infoContainer
+
+                anchors {
+                    verticalCenter: page.verticalCenter
+                    bottom: undefined
+                }
+            }
+
+            AnchorChanges {
+                target: keypadContainer
+                anchors.left: infoContainer.right
+            }
+        },
+        State {
+            name: "portrait"
+
+            AnchorChanges {
+                target: infoContainer
+
+                anchors {
+                    verticalCenter: undefined
+                    bottom: keypadContainer.top
+                }
+            }
+
+            AnchorChanges {
+                target: keypadContainer
+                anchors.left: page.left
+            }
+        }
+    ]
 
     Column {
         id: infoContainer
 
         anchors {
-            verticalCenter: isLandscape ? parent.verticalCenter : undefined
-            bottom: isLandscape ? undefined : keypadContainer.top
             left: parent.left
             rightMargin: Theme.paddingLarge
             leftMargin: Theme.paddingLarge
@@ -115,11 +148,7 @@ Page {
     Item {
         id: keypadContainer
 
-        anchors {
-            left: isLandscape ? infoContainer.right : parent.left
-            bottom: parent.bottom
-        }
-
+        anchors.bottom: parent.bottom
         width: isLandscape ? parent.width / 2 : parent.width
         height: isLandscape ? parent.height : parent.height / 2
 
