@@ -266,7 +266,8 @@ ApplicationWindow {
     property bool unlocked: config.useCodeProtection ? false : true
 
     property ConfigurationGroup config: ConfigurationGroup {
-        path: "/apps/harbour-captains-log"
+        path: "/apps/moe.smoothie.captainslog"
+
         property int configMigrated: 0
         property bool useCodeProtection: false
         property string protectionCode: "-1"
@@ -277,12 +278,15 @@ ApplicationWindow {
 
         function migrate() {
             if (configMigrated === 0) {
-                var _legacyConfig0 = Qt.createQmlObject(
-                            "import Nemo.Configuration 1.0; ConfigurationGroup { path: '/' }",
-                            appWindow, 'LegacyConfiguration0')
+                const component = "import Nemo.Configuration 1.0;\n"
+                                + "ConfigurationGroup { path: '/apps/harbour-captains-log' }"
+                
+                const _legacyConfig0 = Qt.createQmlObject(component, appWindow, 'LegacyConfiguration0')
+                
                 useCodeProtection = (_legacyConfig0.value('/useCodeProtection', 0) === 0) ? false : true
                 protectionCode = _legacyConfig0.value('/protectionCode', '-1')
                 configMigrated = 1
+
                 _legacyConfig0.setValue('/useCodeProtection', undefined)
                 _legacyConfig0.setValue('/protectionCode', undefined)
                 _legacyConfig0.destroy()

@@ -1401,75 +1401,75 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="370"/>
+        <location filename="../qml/harbour-captains-log.qml" line="374"/>
         <source>An unexpected error occurred. Please restart the app and check the logs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="325"/>
-        <location filename="../qml/harbour-captains-log.qml" line="341"/>
+        <location filename="../qml/harbour-captains-log.qml" line="329"/>
+        <location filename="../qml/harbour-captains-log.qml" line="345"/>
         <source>Database backup</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="335"/>
+        <location filename="../qml/harbour-captains-log.qml" line="339"/>
         <source>Backup finished</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="336"/>
+        <location filename="../qml/harbour-captains-log.qml" line="340"/>
         <source>A database backup has been created in “%1”.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="383"/>
-        <location filename="../qml/harbour-captains-log.qml" line="431"/>
-        <location filename="../qml/harbour-captains-log.qml" line="470"/>
+        <location filename="../qml/harbour-captains-log.qml" line="387"/>
+        <location filename="../qml/harbour-captains-log.qml" line="435"/>
+        <location filename="../qml/harbour-captains-log.qml" line="474"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="400"/>
+        <location filename="../qml/harbour-captains-log.qml" line="404"/>
         <source>The local data folder at “%1” is not writable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="403"/>
+        <location filename="../qml/harbour-captains-log.qml" line="407"/>
         <source>Failed to load the database due to an unknown error.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="406"/>
+        <location filename="../qml/harbour-captains-log.qml" line="410"/>
         <source>Failed to update the database at “%1” to the latest version. Details: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="410"/>
+        <location filename="../qml/harbour-captains-log.qml" line="414"/>
         <source>Failed to move files for Sailjail support from “%1” to “%2”.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="414"/>
+        <location filename="../qml/harbour-captains-log.qml" line="418"/>
         <source>Failed to update the database to its latest version because the version file is missing at “%1”.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="418"/>
+        <location filename="../qml/harbour-captains-log.qml" line="422"/>
         <source>The database version “%1” is incompatible with this version of the app. The latest supported database version is “%2”.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="425"/>
+        <location filename="../qml/harbour-captains-log.qml" line="429"/>
         <source>Cannot export unknown file type “%1”. Please report this bug.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="439"/>
+        <location filename="../qml/harbour-captains-log.qml" line="443"/>
         <source>Backup failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="470"/>
+        <location filename="../qml/harbour-captains-log.qml" line="474"/>
         <source>The database could not be loaded.</source>
         <translation type="unfinished"></translation>
     </message>

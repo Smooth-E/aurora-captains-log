@@ -1415,75 +1415,75 @@
         <translation>d. MMM</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="370"/>
+        <location filename="../qml/harbour-captains-log.qml" line="374"/>
         <source>An unexpected error occurred. Please restart the app and check the logs.</source>
         <translation>Произошла непредвиденная ошибка. Пожалуйста, перезапустите приложение и проверьте журналы.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="325"/>
-        <location filename="../qml/harbour-captains-log.qml" line="341"/>
+        <location filename="../qml/harbour-captains-log.qml" line="329"/>
+        <location filename="../qml/harbour-captains-log.qml" line="345"/>
         <source>Database backup</source>
         <translation>Резервное копирование базы данных</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="335"/>
+        <location filename="../qml/harbour-captains-log.qml" line="339"/>
         <source>Backup finished</source>
         <translation>Резервное копирование завершено</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="336"/>
+        <location filename="../qml/harbour-captains-log.qml" line="340"/>
         <source>A database backup has been created in “%1”.</source>
         <translation>Резервная копия базы данных была создана в &quot;%1&quot;.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="383"/>
-        <location filename="../qml/harbour-captains-log.qml" line="431"/>
-        <location filename="../qml/harbour-captains-log.qml" line="470"/>
+        <location filename="../qml/harbour-captains-log.qml" line="387"/>
+        <location filename="../qml/harbour-captains-log.qml" line="435"/>
+        <location filename="../qml/harbour-captains-log.qml" line="474"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="400"/>
+        <location filename="../qml/harbour-captains-log.qml" line="404"/>
         <source>The local data folder at “%1” is not writable.</source>
         <translation>Локальная папка данных по адресу &quot;%1&quot; недоступна для записи.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="403"/>
+        <location filename="../qml/harbour-captains-log.qml" line="407"/>
         <source>Failed to load the database due to an unknown error.</source>
         <translation>Не удалось загрузить базу данных из-за неизвестной ошибки.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="406"/>
+        <location filename="../qml/harbour-captains-log.qml" line="410"/>
         <source>Failed to update the database at “%1” to the latest version. Details: %2</source>
         <translation>Не удалось обновить базу данных по адресу &quot;%1&quot; до последней версии. Подробнее: %2</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="410"/>
+        <location filename="../qml/harbour-captains-log.qml" line="414"/>
         <source>Failed to move files for Sailjail support from “%1” to “%2”.</source>
         <translation>Не удалось переместить файлы для поддержки Sailjail с &quot;%1&quot; на &quot;%2&quot;.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="414"/>
+        <location filename="../qml/harbour-captains-log.qml" line="418"/>
         <source>Failed to update the database to its latest version because the version file is missing at “%1”.</source>
         <translation>Не удалось обновить базу данных до последней версии, так как файл версии отсутствует по адресу &quot;%1&quot;.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="418"/>
+        <location filename="../qml/harbour-captains-log.qml" line="422"/>
         <source>The database version “%1” is incompatible with this version of the app. The latest supported database version is “%2”.</source>
         <translation>Версия базы данных &quot;%1&quot; несовместима с данной версией приложения. Последняя поддерживаемая версия базы данных - &quot;%2&quot;.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="425"/>
+        <location filename="../qml/harbour-captains-log.qml" line="429"/>
         <source>Cannot export unknown file type “%1”. Please report this bug.</source>
         <translation>Невозможно экспортировать файл неизвестного типа &quot;%1&quot;. Пожалуйста, сообщите об этой ошибке.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="439"/>
+        <location filename="../qml/harbour-captains-log.qml" line="443"/>
         <source>Backup failed</source>
         <translation>Не удалось выполнить резервное копирование</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="470"/>
+        <location filename="../qml/harbour-captains-log.qml" line="474"/>
         <source>The database could not be loaded.</source>
         <translation>Не удалось загрузить базу данных.</translation>
     </message>
