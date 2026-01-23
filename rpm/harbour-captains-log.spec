@@ -67,3 +67,9 @@ desktop-file-install --delete-original       \
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
 # >> files
 # << files
+
+%preun
+echo Hello from preuninstall hook
+
+%postun
+echo Hello from postuninstall hook
