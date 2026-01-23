@@ -1,6 +1,6 @@
 <!--
 SPDX-FileCopyrightText: 2018-2025 Mirian Margiani
-SPDX-FileCopyrightText: 2025 Smooth-E
+SPDX-FileCopyrightText: 2025-2026 Smooth-E
 SPDX-License-Identifier: GFDL-1.3-or-later
 -->
 
@@ -12,7 +12,7 @@ SPDX-License-Identifier: GFDL-1.3-or-later
 
 | Ссылки для скачивания |
 | --- |
-| 📦 [RuStore для ОС Аврора](https://www.rustore.ru/osaurora) <br> 🛒 [Аврора Маркет](https://aurorarepos.ru/appitem/bortovoi-zurnal) <br> 😼 [Скачать RPM](https://github.com/Smooth-E/aurora-captains-log/releases/latest) |
+| 📦 [RuStore для ОС Аврора](https://www.rustore.ru/osaurora) <br> 🛒 [Аврора Маркет](https://aurorarepos.ru/aurora-5/bortovoi-zurnal) <br> 😼 [Скачать RPM](https://github.com/Smooth-E/aurora-captains-log/releases/latest) |
 
 Этот репозиторий содержит модифицированный код версий 2.0.0 и новее приложения [Captain's Log для SailfishOS](https://github.com/ichthyosaurus/harbour-captains-log). Оригинальное приложение разрабатывалось [AlphaX2](https://github.com/AlphaX2/) и код предыдущих версий доступен [тут](https://github.com/AlphaX2/Captains-Log-Sailfish).
 
@@ -74,9 +74,9 @@ SPDX-License-Identifier: GFDL-1.3-or-later
 
 ## Лицензирование
 
-- Copyright (С) 2025 Smooth-E
-- Copyright (C) 2020-2025  Mirian Margiani
-- Copyright (C) 2020  AlphaX2
+- Copyright (С) 2025-2026 Smooth-E
+- Copyright (C) 2020-2025 Mirian Margiani
+- Copyright (C) 2020 AlphaX2
 
 Бортовой журнал - свободное программное обеспечение, которое распространяется под лицензией 
 [GNU General Public License v3 (or later)](https://spdx.org/licenses/GPL-3.0-or-later.html).
