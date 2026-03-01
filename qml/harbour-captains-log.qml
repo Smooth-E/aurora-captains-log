@@ -24,7 +24,7 @@ import Sailfish.Silica 1.0
 import Nemo.Configuration 1.0
 import Nemo.Notifications 1.0
 import io.thp.pyotherside 1.5
-import SortFilterProxyModel 0.2
+import Opal.SortFilterProxyModel 1.0
 import Opal.About 1.0 as A
 import Opal.SupportMe 1.0 as M
 
@@ -142,6 +142,7 @@ ApplicationWindow {
 
         if (!py || !py.ready) {
             console.error("normalizeText(string) was called while the backend was not ready")
+            console.trace()
             return string
         }
 
@@ -371,6 +372,8 @@ ApplicationWindow {
 
     Python {
         id: py
+
+        property bool ready: false
         property string unexpectedErrorMessage: qsTr(
             "An unexpected error occurred. Please restart the app and " +
             "check the logs.")
@@ -469,7 +472,10 @@ ApplicationWindow {
                 console.log("python backend loaded")
 
                 py.call("diary.initialize", [StandardPaths], function(success) {
-                    if (!success) {
+                    if (success) {
+                        ready = true
+                    } else {
+                        ready = false
                         console.error('failed to initialize backend')
                         showMessage(qsTr("Error"), qsTr("The database could not be loaded."))
                         return

@@ -425,6 +425,19 @@
     </message>
 </context>
 <context>
+    <name>ExternalUrlPage</name>
+    <message>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="86"/>
+        <source>Swipe left to preview.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="86"/>
+        <source>You are using a mobile data connection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>FirstPage</name>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="54"/>
@@ -539,29 +552,29 @@
 <context>
     <name>Opal.About</name>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="57"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="58"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="86"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="87"/>
         <source>Version %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="102"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="103"/>
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="24"/>
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="33"/>
         <source>Development</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="105"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="106"/>
         <source>show contributors</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="107"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="108"/>
         <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="18"/>
         <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="24"/>
         <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="47"/>
@@ -569,12 +582,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="113"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="114"/>
         <source>Translations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="116"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="117"/>
         <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="17"/>
         <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="25"/>
         <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="50"/>
@@ -582,17 +595,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="125"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="126"/>
         <source>Donations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="131"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="132"/>
         <source>License</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="136"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="137"/>
         <source>show license(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -620,29 +633,34 @@
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="15"/>
-        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="34"/>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="45"/>
         <source>Details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="28"/>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="37"/>
         <source>Download license texts</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="40"/>
+        <source>You are using a mobile data connection.</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="34"/>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="45"/>
         <source>License(s)</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="44"/>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="55"/>
         <source>Note: please check the source code for most accurate information.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="110"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="111"/>
         <location filename="../qml/modules/Opal/About/private/ChangelogPage.qml" line="16"/>
         <source>Changelog</source>
         <translation type="unfinished"></translation>
@@ -684,43 +702,58 @@
 <context>
     <name>Opal.LinkHandler</name>
     <message>
-        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="24"/>
-        <source>External Link</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="44"/>
-        <source>Copy text to clipboard</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="55"/>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="76"/>
         <source>Share</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="60"/>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="73"/>
         <source>Open in browser</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="60"/>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="51"/>
+        <source>Phone number</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="51"/>
+        <source>External link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="73"/>
         <source>Open externally</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="17"/>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="81"/>
+        <source>Copy link</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="83"/>
+        <source>Copy text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="36"/>
         <source>Copied to clipboard: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="15"/>
+        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="47"/>
         <source>Share link</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/LinkHandler/private/ExternalUrlPage.qml" line="50"/>
-        <source>Copy to clipboard</source>
+        <location filename="../qml/modules/Opal/LinkHandler/private/PreviewPage.qml" line="27"/>
+        <source>No preview available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/LinkHandler/private/PreviewPage.qml" line="28"/>
+        <source>The page is taking too long to load.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -764,222 +797,222 @@
 <context>
     <name>SearchQueryDialog</name>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="97"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="103"/>
         <source>Any may match</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="104"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="110"/>
         <source>All must match</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="113"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="119"/>
         <source>Back</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="114"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="120"/>
         <source>Search</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="118"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="124"/>
         <source>Title and entry</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="124"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="130"/>
         <source>Search contents</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="150"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="156"/>
         <source>Search tags</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="173"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="179"/>
         <source>Search syntax</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="181"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="187"/>
         <source>Use simplified plain text searching if you are unsure how you spelled something in the past: select “plain text” as search syntax here, and “simplified” as search mode in the separate setting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="220"/>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="266"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="226"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="272"/>
         <source>Note</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="190"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="196"/>
         <source>plain text</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="192"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="198"/>
         <source>Search for the string as you entered it. Note: some simplifications will be applied to the search term if the “Search mode” is set to “simplified”.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="198"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="204"/>
         <source>wildcard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="200"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="206"/>
         <source>This option allows to search for extended patterns. Use “?” to match any single character, and “*” to match zero or more characters. Groups of characters can be defined in square brackets. Use a backslash to search for literal “?” or “*”, e.g. “%1”.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="208"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="214"/>
         <source>regular expression</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="210"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="216"/>
         <source>Search using complex regular expressions. Use the vertical bar “|” to search for multiple terms. Search the Internet if you want to learn more about regular expressions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="231"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="237"/>
         <source>Search mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="245"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="251"/>
         <source>simplified</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="247"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="253"/>
         <source>Ignore diacritics on characters, matching e.g. “ö”, “ó”, and “õ” when searching for “o”. Ignore any punctuation marks. Use this mode when you are unsure how you spelled something in the past.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="254"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="260"/>
         <source>strict</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="256"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="262"/>
         <source>Match the query string exactly. Use this mode when you know exactly what you are searching for, or when you want to search for a string containing punctuation marks like “-”, “!”, or “#”.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="276"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="282"/>
         <source>Bookmarks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="285"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="291"/>
         <source>all entries</source>
         <comment>search option, as in: “find all entries, whether they are bookmarked or not”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="289"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="295"/>
         <source>Find entries regardless of whether they are bookmarked or not.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="294"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="300"/>
         <source>marked</source>
         <comment>search option, as in: “find only bookmarked entries”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="297"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="303"/>
         <source>Find only bookmarked entries.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="300"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="306"/>
         <source>unmarked</source>
         <comment>search option, as in: “find only entries that are not bookmarked”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="303"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="309"/>
         <source>Find only entries that are not bookmarked.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="313"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="319"/>
         <source>Selection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="322"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="328"/>
         <source>all entries</source>
         <comment>search option, as in: “find all entries, whether they are currently selected or not”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="326"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="332"/>
         <source>Find entries regardless of whether they are selected or not.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="331"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="337"/>
         <source>selected</source>
         <comment>search option, as in: “find only selected entries”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="334"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="340"/>
         <source>Find only currently selected entries.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="337"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="343"/>
         <source>unselected</source>
         <comment>search option, as in: “find only entries that are not selected</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="340"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="346"/>
         <source>Find only entries that are currently not selected.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="346"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="352"/>
         <source>Mood</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="357"/>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="385"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="363"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="391"/>
         <source>From</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="367"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="373"/>
         <source>To</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="376"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="382"/>
         <source>Entry date</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="386"/>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="394"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="392"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="400"/>
         <source>anytime</source>
         <comment>search option, as in: “match all entries regardless of their date”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="393"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="399"/>
         <source>Until</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/SearchQueryDialog.qml" line="402"/>
+        <location filename="../qml/pages/SearchQueryDialog.qml" line="408"/>
         <source>Press and hold to reset the date.</source>
         <translation type="unfinished"></translation>
     </message>

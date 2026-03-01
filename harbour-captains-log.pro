@@ -57,14 +57,12 @@ CONFIG += auroraapp_i18n
 # in the the .desktop file.
 TRANSLATIONS = translations/moe.smoothie.captainslog-*.ts \
 
-QML_IMPORT_PATH += qml/modules
-
-DEFINES += APP_VERSION=\\\"4.2.1.1\\\"
-DEFINES += APP_RELEASE=\\\"1\\\"
+# Note: version number is configured in yaml
+DEFINES += APP_VERSION=\\\"$$VERSION\\\"
+DEFINES += APP_RELEASE=\\\"$$RELEASE\\\"
 include(libs/opal-cached-defines.pri)
 
-# Build submodules
-include(libs/SortFilterProxyModel/SortFilterProxyModel.pri)
+include(libs/opal.pri)
 
 # Vendor libraries
 
