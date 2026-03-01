@@ -1246,7 +1246,7 @@
 <context>
     <name>TagSuggestionsView</name>
     <message>
-        <location filename="../qml/components/TagSuggestionsView.qml" line="83"/>
+        <location filename="../qml/components/TagSuggestionsView.qml" line="84"/>
         <source>Show %1 more</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1254,88 +1254,88 @@
 <context>
     <name>WritePage</name>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="143"/>
+        <location filename="../qml/pages/WritePage.qml" line="140"/>
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="142"/>
+        <location filename="../qml/pages/WritePage.qml" line="139"/>
         <source>New Entry</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="183"/>
+        <location filename="../qml/pages/WritePage.qml" line="180"/>
         <source>Title</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="206"/>
+        <location filename="../qml/pages/WritePage.qml" line="203"/>
         <source>Entry</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="142"/>
+        <location filename="../qml/pages/WritePage.qml" line="139"/>
         <source>Edit Entry</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="168"/>
+        <location filename="../qml/pages/WritePage.qml" line="165"/>
         <source>How did you feel?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="168"/>
+        <location filename="../qml/pages/WritePage.qml" line="165"/>
         <source>How do you feel?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="182"/>
+        <location filename="../qml/pages/WritePage.qml" line="179"/>
         <source>Add a title</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="205"/>
+        <location filename="../qml/pages/WritePage.qml" line="202"/>
         <source>What do you want to say?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="153"/>
+        <location filename="../qml/pages/WritePage.qml" line="150"/>
         <source>never</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="123"/>
+        <location filename="../qml/pages/WritePage.qml" line="120"/>
         <source>Discarded all changes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="125"/>
+        <location filename="../qml/pages/WritePage.qml" line="122"/>
         <source>Discarded the entry</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="144"/>
+        <location filename="../qml/pages/WritePage.qml" line="141"/>
         <source>Discard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="148"/>
+        <location filename="../qml/pages/WritePage.qml" line="145"/>
         <source>Date</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="152"/>
+        <location filename="../qml/pages/WritePage.qml" line="149"/>
         <source>Last edited: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="169"/>
+        <location filename="../qml/pages/WritePage.qml" line="166"/>
         <source>Your mood</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="235"/>
-        <location filename="../qml/pages/WritePage.qml" line="236"/>
+        <location filename="../qml/pages/WritePage.qml" line="232"/>
+        <location filename="../qml/pages/WritePage.qml" line="233"/>
         <source>Tags</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1343,159 +1343,159 @@
 <context>
     <name>harbour-captains-log</name>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="132"/>
+        <location filename="../qml/harbour-captains-log.qml" line="133"/>
         <source>%1 (%2)</source>
         <comment>1: date, 2: time zone info</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="48"/>
+        <location filename="../qml/harbour-captains-log.qml" line="49"/>
         <source>Captain&apos;s Log</source>
         <comment>the app&apos;s name</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="50"/>
+        <location filename="../qml/harbour-captains-log.qml" line="51"/>
         <source>&apos;at&apos; hh&apos;:&apos;mm</source>
         <comment>time format, as in “at 10:00 (o&apos;clock)”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="64"/>
+        <location filename="../qml/harbour-captains-log.qml" line="65"/>
         <source>fantastic</source>
         <comment>as in “my mood is...”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="65"/>
+        <location filename="../qml/harbour-captains-log.qml" line="66"/>
         <source>good</source>
         <comment>as in “my mood is...”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="66"/>
+        <location filename="../qml/harbour-captains-log.qml" line="67"/>
         <source>okay</source>
         <comment>as in “my mood is...”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="67"/>
+        <location filename="../qml/harbour-captains-log.qml" line="68"/>
         <source>not okay</source>
         <comment>as in “my mood is...”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="68"/>
+        <location filename="../qml/harbour-captains-log.qml" line="69"/>
         <source>bad</source>
         <comment>as in “my mood is...”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="69"/>
+        <location filename="../qml/harbour-captains-log.qml" line="70"/>
         <source>horrible</source>
         <comment>as in “my mood is...”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="52"/>
+        <location filename="../qml/harbour-captains-log.qml" line="53"/>
         <source>d MMM yyyy, hh&apos;:&apos;mm</source>
         <comment>date and time format, as in “Dec. 1st 2023, 10:00 o&apos;clock”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="58"/>
+        <location filename="../qml/harbour-captains-log.qml" line="59"/>
         <source>d MMM yyyy</source>
         <comment>date format, as in “Dec. 1st 2023”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="54"/>
+        <location filename="../qml/harbour-captains-log.qml" line="55"/>
         <source>ddd d MMM yyyy, hh&apos;:&apos;mm</source>
         <comment>full date and time format, as in “Fri., Dec. 1st 2023, 10:00 o&apos;clock”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="56"/>
+        <location filename="../qml/harbour-captains-log.qml" line="57"/>
         <source>ddd d MMM yyyy</source>
         <comment>full date format, as in “Fri., Dec. 1st 2023”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="60"/>
+        <location filename="../qml/harbour-captains-log.qml" line="61"/>
         <source>d MMM</source>
         <comment>date format without year, as in “Dec. 1st”</comment>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="377"/>
+        <location filename="../qml/harbour-captains-log.qml" line="378"/>
         <source>An unexpected error occurred. Please restart the app and check the logs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="330"/>
-        <location filename="../qml/harbour-captains-log.qml" line="346"/>
+        <location filename="../qml/harbour-captains-log.qml" line="331"/>
+        <location filename="../qml/harbour-captains-log.qml" line="347"/>
         <source>Database backup</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="340"/>
+        <location filename="../qml/harbour-captains-log.qml" line="341"/>
         <source>Backup finished</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="341"/>
+        <location filename="../qml/harbour-captains-log.qml" line="342"/>
         <source>A database backup has been created in “%1”.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="390"/>
-        <location filename="../qml/harbour-captains-log.qml" line="438"/>
-        <location filename="../qml/harbour-captains-log.qml" line="480"/>
+        <location filename="../qml/harbour-captains-log.qml" line="391"/>
+        <location filename="../qml/harbour-captains-log.qml" line="439"/>
+        <location filename="../qml/harbour-captains-log.qml" line="481"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="407"/>
+        <location filename="../qml/harbour-captains-log.qml" line="408"/>
         <source>The local data folder at “%1” is not writable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="410"/>
+        <location filename="../qml/harbour-captains-log.qml" line="411"/>
         <source>Failed to load the database due to an unknown error.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="413"/>
+        <location filename="../qml/harbour-captains-log.qml" line="414"/>
         <source>Failed to update the database at “%1” to the latest version. Details: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="417"/>
+        <location filename="../qml/harbour-captains-log.qml" line="418"/>
         <source>Failed to move files for Sailjail support from “%1” to “%2”.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="421"/>
+        <location filename="../qml/harbour-captains-log.qml" line="422"/>
         <source>Failed to update the database to its latest version because the version file is missing at “%1”.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="425"/>
+        <location filename="../qml/harbour-captains-log.qml" line="426"/>
         <source>The database version “%1” is incompatible with this version of the app. The latest supported database version is “%2”.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="432"/>
+        <location filename="../qml/harbour-captains-log.qml" line="433"/>
         <source>Cannot export unknown file type “%1”. Please report this bug.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="446"/>
+        <location filename="../qml/harbour-captains-log.qml" line="447"/>
         <source>Backup failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="480"/>
+        <location filename="../qml/harbour-captains-log.qml" line="481"/>
         <source>The database could not be loaded.</source>
         <translation type="unfinished"></translation>
     </message>

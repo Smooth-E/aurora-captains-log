@@ -3,6 +3,7 @@
  *
  * SPDX-FileCopyrightText: 2020 Gabriel Berkigt
  * SPDX-FileCopyrightText: 2020-2023 Mirian Margiani
+ * SPDX-FileCopyrightText: 2026 Smooth-E
  *
  * SPDX-License-Identifier: GPL-3.0-or-later
  *
@@ -113,16 +114,13 @@ Dialog {
         appWindow._currentlyEditedEntry.index      = index
         appWindow._currentlyEditedEntry.model      = model
 
-        try {
-            var page = pageStack.previousPage(page)
-        } catch(error) {
-            page = appWindow
-        }
+        // NOTE: When exiting from creating a new note, currentPage is already FirstPage
+        const page = pageStack.currentPage !== root ? pageStack.currentPage : pageStack.previousPage()
 
         if (editing) {
-            remorseCancelWriting(page || appWindow, qsTr("Discarded all changes"))
+            remorseCancelWriting(page, qsTr("Discarded all changes"))
         } else {
-            remorseCancelWriting(page || appWindow, qsTr("Discarded the entry"))
+            remorseCancelWriting(page, qsTr("Discarded the entry"))
         }
     }
 
