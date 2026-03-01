@@ -14,6 +14,7 @@ translations/*.qm
 
 # Compiled vendored libs
 vendor
+vendor.bak
 
 # Compiled app binary
 moe.smoothie.captainslog

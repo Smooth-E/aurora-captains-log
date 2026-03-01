@@ -68,8 +68,17 @@ build_cpython()
 	  make -j$(nproc --all) && \
 	  make install || exit 1"
 
-      # Return to project root
-      cd ../../../
+    # Remove unneeded modules
+    rm -r $(pwd)/../../../vendor/$arch/lib/python3.13/test/
+    rm -r $(pwd)/../../../vendor/$arch/lib/python3.13/idlelib/ 
+    rm -r $(pwd)/../../../vendor/$arch/lib/python3.13/venv
+    rm -r $(pwd)/../../../vendor/$arch/lib/python3.13/unittest/
+    rm -r $(pwd)/../../../vendor/$arch/lib/python3.13/turtle.py 
+    rm -r $(pwd)/../../../vendor/$arch/lib/python3.13/turtledemo/
+    rm -r $(pwd)/../../../vendor/$arch/lib/python3.13/tkinter/
+
+    # Return to project root
+    cd ../../../
 }
 
 build_pyotherside()
