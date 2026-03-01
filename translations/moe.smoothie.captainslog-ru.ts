@@ -1257,14 +1257,10 @@
 </context>
 <context>
     <name>TagSuggestionsView</name>
-    <message numerus="yes">
-        <location filename="../qml/components/TagSuggestionsView.qml" line="112"/>
-        <source>... and %n more</source>
-        <translation>
-            <numerusform>... %n и больше</numerusform>
-            <numerusform>... %n и больше</numerusform>
-            <numerusform>... %n и больше</numerusform>
-        </translation>
+    <message>
+        <location filename="../qml/components/TagSuggestionsView.qml" line="83"/>
+        <source>Show %1 more</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -3,6 +3,7 @@
  *
  * SPDX-FileCopyrightText: 2020 Gabriel Berkigt
  * SPDX-FileCopyrightText: 2020-2023 Mirian Margiani
+ * SPDX-FileCopyrightText: 2026 Smooth-E
  *
  * SPDX-License-Identifier: GPL-3.0-or-later
  *
@@ -161,7 +162,7 @@ ApplicationWindow {
             color += ('00' + value.toString(16)).substr(-2)
         }
 
-        return color
+        return Qt.tint(color, Theme.rgba(Theme.primaryColor, Theme.opacityLow))
     }
 
     function _mappedIndex(model, index) {
