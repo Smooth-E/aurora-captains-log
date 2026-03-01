@@ -1254,88 +1254,88 @@
 <context>
     <name>WritePage</name>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="140"/>
+        <location filename="../qml/pages/WritePage.qml" line="141"/>
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="139"/>
+        <location filename="../qml/pages/WritePage.qml" line="140"/>
         <source>New Entry</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="180"/>
+        <location filename="../qml/pages/WritePage.qml" line="181"/>
         <source>Title</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="203"/>
+        <location filename="../qml/pages/WritePage.qml" line="204"/>
         <source>Entry</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="139"/>
+        <location filename="../qml/pages/WritePage.qml" line="140"/>
         <source>Edit Entry</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="165"/>
+        <location filename="../qml/pages/WritePage.qml" line="166"/>
         <source>How did you feel?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="165"/>
+        <location filename="../qml/pages/WritePage.qml" line="166"/>
         <source>How do you feel?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="179"/>
+        <location filename="../qml/pages/WritePage.qml" line="180"/>
         <source>Add a title</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="202"/>
+        <location filename="../qml/pages/WritePage.qml" line="203"/>
         <source>What do you want to say?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="150"/>
+        <location filename="../qml/pages/WritePage.qml" line="151"/>
         <source>never</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="120"/>
+        <location filename="../qml/pages/WritePage.qml" line="121"/>
         <source>Discarded all changes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="122"/>
+        <location filename="../qml/pages/WritePage.qml" line="123"/>
         <source>Discarded the entry</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="141"/>
+        <location filename="../qml/pages/WritePage.qml" line="142"/>
         <source>Discard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="145"/>
+        <location filename="../qml/pages/WritePage.qml" line="146"/>
         <source>Date</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="149"/>
+        <location filename="../qml/pages/WritePage.qml" line="150"/>
         <source>Last edited: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="166"/>
+        <location filename="../qml/pages/WritePage.qml" line="167"/>
         <source>Your mood</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/WritePage.qml" line="232"/>
         <location filename="../qml/pages/WritePage.qml" line="233"/>
+        <location filename="../qml/pages/WritePage.qml" line="234"/>
         <source>Tags</source>
         <translation type="unfinished"></translation>
     </message>
