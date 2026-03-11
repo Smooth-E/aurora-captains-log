@@ -1,7 +1,7 @@
 /*
  * This file is part of harbour-captains-log.
  * SPDX-FileCopyrightText: Mirian Margiani
- * SPDX-FileCopyrightText: 2025 Smooth-E
+ * SPDX-FileCopyrightText: 2025-2026 Smooth-E
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -9,6 +9,17 @@ import QtQuick 2.0
 import "modules/Opal/About"
 
 ChangelogList {
+    ChangelogItem {
+        version: "4.2.1.2-1"
+        date: "2026-03-11"
+        paragraphs: [
+            "- Используется версия cpython 3.14.3<br>" +
+            "- Оптимизирован размер приложения и время установки<br>" +
+            "- Обновлен селектор тегов для заметок<br>" +
+            "- (Upstream) Уход от внешних зависимостей, обновление модулей Opal и внутренние оптимизации"
+        ]
+    }
+
     ChangelogItem {
         version: "4.2.1.1-1"
         date: "2025-09-03"

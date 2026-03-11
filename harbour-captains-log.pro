@@ -87,7 +87,7 @@ python_bin.files = $$vendor/bin/python3 \
                    $$vendor/bin/python3.14
 
 python_lib.path = $$libdir
-python_lib.files = $$vendor/lib/python3.14\
+python_lib.files = $$vendor/lib/python3.14 \
                    $$vendor/lib/lib*
 
 pyotherside.path = $$libdir/

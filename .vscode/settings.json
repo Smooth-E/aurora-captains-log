@@ -3,7 +3,8 @@
         "*.ts": "xml",
         "*.desktop": "ini",
         "*.spec": "shellscript",
-        "*.pro": "shellscript"
+        "*.pro": "shellscript",
+        "*.changes": "shellscript"
     },
     "cSpell.words": [
         "boosty",

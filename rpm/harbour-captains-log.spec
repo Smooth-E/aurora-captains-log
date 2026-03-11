@@ -8,7 +8,7 @@ Name:       moe.smoothie.captainslog
 %define _buildhost Aurora Build Engine
 
 Summary:    Простое приложение-дневник
-Version:    4.2.1.1
+Version:    4.2.1.2
 Release:    1
 Group:      Qt/Qt
 License:    GPL-3.0-or-later
