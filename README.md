@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2018-2025 Mirian Margiani
+SPDX-FileCopyrightText: 2018-2026 Mirian Margiani
 SPDX-FileCopyrightText: 2025-2026 Smooth-E
 SPDX-License-Identifier: GFDL-1.3-or-later
 -->
@@ -75,7 +75,7 @@ SPDX-License-Identifier: GFDL-1.3-or-later
 ## Лицензирование
 
 - Copyright (С) 2025-2026 Smooth-E
-- Copyright (C) 2020-2025 Mirian Margiani
+- Copyright (C) 2020-2026 Mirian Margiani
 - Copyright (C) 2020 AlphaX2
 
 Бортовой журнал - свободное программное обеспечение, которое распространяется под лицензией 

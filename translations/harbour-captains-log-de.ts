@@ -272,7 +272,7 @@
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="109"/>
         <source>Export entries in a simple &lt;a href=&quot;https://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt; format. This can later be converted into other formats for printing or for the web.</source>
-        <translation type="unfinished"></translation>
+        <translation>Einträge im einfachen &lt;a href=&quot;https://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt;-Format exportieren. Dieses Format kann anschliessend in andere Formate zum Drucken oder Veröffentlichen konvertiert werden.</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="118"/>
