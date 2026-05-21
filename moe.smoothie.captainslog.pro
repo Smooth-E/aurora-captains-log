@@ -65,6 +65,7 @@ include(libs/opal.pri)
 
 # Vendor libraries
 
+cpython_version = 3.8
 libdir = /usr/share/$$TARGET/lib
 libexecdir = /usr/libexec/$$TARGET
 
@@ -83,10 +84,10 @@ message(Selected vendor dir $$vendor)
 
 python_bin.path = $$libexecdir
 python_bin.files = $$vendor/bin/python3 \
-                   $$vendor/bin/python3.14
+                   $$vendor/bin/python$$cpython_version
 
 python_lib.path = $$libdir
-python_lib.files = $$vendor/lib/python3.14 \
+python_lib.files = $$vendor/lib/python$$cpython_version \
                    $$vendor/lib/lib*
 
 pyotherside.path = $$libdir/
