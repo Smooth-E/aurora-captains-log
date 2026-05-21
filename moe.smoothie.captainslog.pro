@@ -19,7 +19,7 @@ TARGET = moe.smoothie.captainslog
 CONFIG += auroraapp c++11
 
 SOURCES += \
-    src/harbour-captains-log.cpp \
+    src/main.cpp \
     src/qmltypes.cpp \
     src/tagsfilter.cpp \
     src/selectable_sfpm.cpp \
@@ -31,16 +31,15 @@ HEADERS += \
     # src/transliterator.h \
 
 DISTFILES += \
-    qml/harbour-captains-log.qml \
+    qml/moe.smoothie.captainslog.qml \
     qml/cover/*.qml \
     qml/images/*.png \
     qml/pages/*.qml \
     qml/components/*.qml \
     qml/templates/* \
     qml/py/*.py \
-    rpm/harbour-captains-log.changes.in \
-    rpm/harbour-captains-log.changes.run.in \
-    rpm/harbour-captains-log.spec \
+    rpm/moe.smoothie.captainslog.charnges \
+    rpm/moe.smoothie.captainslog.spec \
     translations/*.ts \
     moe.smoothie.captainslog.desktop \
     \

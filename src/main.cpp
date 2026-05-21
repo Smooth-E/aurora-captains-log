@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
     // Vendored pyotherside
     view->engine()->addImportPath(Aurora::Application::pathTo("lib/qt5/qml").toString());
 
-    view->setSource(Aurora::Application::pathTo("qml/harbour-captains-log.qml"));
+    view->setSource(Aurora::Application::pathToMainQml());
     view->show();
 
     return app->exec();

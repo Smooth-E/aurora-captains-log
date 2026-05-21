@@ -1353,163 +1353,163 @@
     </message>
 </context>
 <context>
-    <name>harbour-captains-log</name>
+    <name>moe.smoothie.captainslog</name>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="133"/>
-        <source>%1 (%2)</source>
-        <comment>1: date, 2: time zone info</comment>
-        <translation>%1 (%2)</translation>
-    </message>
-    <message>
-        <location filename="../qml/harbour-captains-log.qml" line="49"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="49"/>
         <source>Captain&apos;s Log</source>
         <comment>the app&apos;s name</comment>
-        <translation>Бортовой журнал</translation>
+        <translation type="unfinished">Бортовой журнал</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="51"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="51"/>
         <source>&apos;at&apos; hh&apos;:&apos;mm</source>
         <comment>time format, as in “at 10:00 (o&apos;clock)”</comment>
-        <translation>&apos;в&apos; hh&apos;:&apos;mm</translation>
+        <translation type="unfinished">&apos;в&apos; hh&apos;:&apos;mm</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="65"/>
-        <source>fantastic</source>
-        <comment>as in “my mood is...”</comment>
-        <translation>фантастическое</translation>
-    </message>
-    <message>
-        <location filename="../qml/harbour-captains-log.qml" line="66"/>
-        <source>good</source>
-        <comment>as in “my mood is...”</comment>
-        <translation>нормальное</translation>
-    </message>
-    <message>
-        <location filename="../qml/harbour-captains-log.qml" line="67"/>
-        <source>okay</source>
-        <comment>as in “my mood is...”</comment>
-        <translation>хорошее</translation>
-    </message>
-    <message>
-        <location filename="../qml/harbour-captains-log.qml" line="68"/>
-        <source>not okay</source>
-        <comment>as in “my mood is...”</comment>
-        <translation>не хорошее</translation>
-    </message>
-    <message>
-        <location filename="../qml/harbour-captains-log.qml" line="69"/>
-        <source>bad</source>
-        <comment>as in “my mood is...”</comment>
-        <translation>плохое</translation>
-    </message>
-    <message>
-        <location filename="../qml/harbour-captains-log.qml" line="70"/>
-        <source>horrible</source>
-        <comment>as in “my mood is...”</comment>
-        <translation>ужасное</translation>
-    </message>
-    <message>
-        <location filename="../qml/harbour-captains-log.qml" line="53"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="53"/>
         <source>d MMM yyyy, hh&apos;:&apos;mm</source>
         <comment>date and time format, as in “Dec. 1st 2023, 10:00 o&apos;clock”</comment>
-        <translation>d. MMM yyyy, hh&apos;:&apos;mm</translation>
+        <translation type="unfinished">d. MMM yyyy, hh&apos;:&apos;mm</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="59"/>
-        <source>d MMM yyyy</source>
-        <comment>date format, as in “Dec. 1st 2023”</comment>
-        <translation>d. MMM yyyy</translation>
-    </message>
-    <message>
-        <location filename="../qml/harbour-captains-log.qml" line="55"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="55"/>
         <source>ddd d MMM yyyy, hh&apos;:&apos;mm</source>
         <comment>full date and time format, as in “Fri., Dec. 1st 2023, 10:00 o&apos;clock”</comment>
-        <translation>ddd, d. MMM yyyy, hh&apos;:&apos;mm</translation>
+        <translation type="unfinished">ddd, d. MMM yyyy, hh&apos;:&apos;mm</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="57"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="57"/>
         <source>ddd d MMM yyyy</source>
         <comment>full date format, as in “Fri., Dec. 1st 2023”</comment>
-        <translation>ddd, d. MMM yyyy</translation>
+        <translation type="unfinished">ddd, d. MMM yyyy</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="61"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="59"/>
+        <source>d MMM yyyy</source>
+        <comment>date format, as in “Dec. 1st 2023”</comment>
+        <translation type="unfinished">d. MMM yyyy</translation>
+    </message>
+    <message>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="61"/>
         <source>d MMM</source>
         <comment>date format without year, as in “Dec. 1st”</comment>
-        <translation>d. MMM</translation>
+        <translation type="unfinished">d. MMM</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="378"/>
-        <source>An unexpected error occurred. Please restart the app and check the logs.</source>
-        <translation>Произошла непредвиденная ошибка. Пожалуйста, перезапустите приложение и проверьте журналы.</translation>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="65"/>
+        <source>fantastic</source>
+        <comment>as in “my mood is...”</comment>
+        <translation type="unfinished">фантастическое</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="331"/>
-        <location filename="../qml/harbour-captains-log.qml" line="347"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="66"/>
+        <source>good</source>
+        <comment>as in “my mood is...”</comment>
+        <translation type="unfinished">нормальное</translation>
+    </message>
+    <message>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="67"/>
+        <source>okay</source>
+        <comment>as in “my mood is...”</comment>
+        <translation type="unfinished">хорошее</translation>
+    </message>
+    <message>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="68"/>
+        <source>not okay</source>
+        <comment>as in “my mood is...”</comment>
+        <translation type="unfinished">не хорошее</translation>
+    </message>
+    <message>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="69"/>
+        <source>bad</source>
+        <comment>as in “my mood is...”</comment>
+        <translation type="unfinished">плохое</translation>
+    </message>
+    <message>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="70"/>
+        <source>horrible</source>
+        <comment>as in “my mood is...”</comment>
+        <translation type="unfinished">ужасное</translation>
+    </message>
+    <message>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="133"/>
+        <source>%1 (%2)</source>
+        <comment>1: date, 2: time zone info</comment>
+        <translation type="unfinished">%1 (%2)</translation>
+    </message>
+    <message>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="331"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="347"/>
         <source>Database backup</source>
-        <translation>Резервное копирование базы данных</translation>
+        <translation type="unfinished">Резервное копирование базы данных</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="341"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="341"/>
         <source>Backup finished</source>
-        <translation>Резервное копирование завершено</translation>
+        <translation type="unfinished">Резервное копирование завершено</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="342"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="342"/>
         <source>A database backup has been created in “%1”.</source>
-        <translation>Резервная копия базы данных была создана в &quot;%1&quot;.</translation>
+        <translation type="unfinished">Резервная копия базы данных была создана в &quot;%1&quot;.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="391"/>
-        <location filename="../qml/harbour-captains-log.qml" line="439"/>
-        <location filename="../qml/harbour-captains-log.qml" line="481"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="378"/>
+        <source>An unexpected error occurred. Please restart the app and check the logs.</source>
+        <translation type="unfinished">Произошла непредвиденная ошибка. Пожалуйста, перезапустите приложение и проверьте журналы.</translation>
+    </message>
+    <message>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="391"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="439"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="481"/>
         <source>Error</source>
-        <translation>Ошибка</translation>
+        <translation type="unfinished">Ошибка</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="408"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="408"/>
         <source>The local data folder at “%1” is not writable.</source>
-        <translation>Локальная папка данных по адресу &quot;%1&quot; недоступна для записи.</translation>
+        <translation type="unfinished">Локальная папка данных по адресу &quot;%1&quot; недоступна для записи.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="411"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="411"/>
         <source>Failed to load the database due to an unknown error.</source>
-        <translation>Не удалось загрузить базу данных из-за неизвестной ошибки.</translation>
+        <translation type="unfinished">Не удалось загрузить базу данных из-за неизвестной ошибки.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="414"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="414"/>
         <source>Failed to update the database at “%1” to the latest version. Details: %2</source>
-        <translation>Не удалось обновить базу данных по адресу &quot;%1&quot; до последней версии. Подробнее: %2</translation>
+        <translation type="unfinished">Не удалось обновить базу данных по адресу &quot;%1&quot; до последней версии. Подробнее: %2</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="418"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="418"/>
         <source>Failed to move files for Sailjail support from “%1” to “%2”.</source>
-        <translation>Не удалось переместить файлы для поддержки Sailjail с &quot;%1&quot; на &quot;%2&quot;.</translation>
+        <translation type="unfinished">Не удалось переместить файлы для поддержки Sailjail с &quot;%1&quot; на &quot;%2&quot;.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="422"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="422"/>
         <source>Failed to update the database to its latest version because the version file is missing at “%1”.</source>
-        <translation>Не удалось обновить базу данных до последней версии, так как файл версии отсутствует по адресу &quot;%1&quot;.</translation>
+        <translation type="unfinished">Не удалось обновить базу данных до последней версии, так как файл версии отсутствует по адресу &quot;%1&quot;.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="426"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="426"/>
         <source>The database version “%1” is incompatible with this version of the app. The latest supported database version is “%2”.</source>
-        <translation>Версия базы данных &quot;%1&quot; несовместима с данной версией приложения. Последняя поддерживаемая версия базы данных - &quot;%2&quot;.</translation>
+        <translation type="unfinished">Версия базы данных &quot;%1&quot; несовместима с данной версией приложения. Последняя поддерживаемая версия базы данных - &quot;%2&quot;.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="433"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="433"/>
         <source>Cannot export unknown file type “%1”. Please report this bug.</source>
-        <translation>Невозможно экспортировать файл неизвестного типа &quot;%1&quot;. Пожалуйста, сообщите об этой ошибке.</translation>
+        <translation type="unfinished">Невозможно экспортировать файл неизвестного типа &quot;%1&quot;. Пожалуйста, сообщите об этой ошибке.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="447"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="447"/>
         <source>Backup failed</source>
-        <translation>Не удалось выполнить резервное копирование</translation>
+        <translation type="unfinished">Не удалось выполнить резервное копирование</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-captains-log.qml" line="481"/>
+        <location filename="../qml/moe.smoothie.captainslog.qml" line="481"/>
         <source>The database could not be loaded.</source>
-        <translation>Не удалось загрузить базу данных.</translation>
+        <translation type="unfinished">Не удалось загрузить базу данных.</translation>
     </message>
 </context>
 </TS>
