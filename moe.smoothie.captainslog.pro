@@ -1,7 +1,7 @@
 # This file is part of Captain's Log.
 # SPDX-FileCopyrightText: 2020 Gabriel Berkigt
 # SPDX-FileCopyrightText: 2020-2024 Mirian Margiani
-# SPDX-FileCopyrightText: 2025 Smooth-E
+# SPDX-FileCopyrightText: 2025-2026 Smooth-E
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 # Application name defined in TARGET has a corresponding QML filename.

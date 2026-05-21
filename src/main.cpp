@@ -2,7 +2,7 @@
  * This file is part of Captain's Log.
  * SPDX-FileCopyrightText: 2021  Lukáš Karas
  * SPDX-FileCopyrightText: 2021-2022  Mirian Margiani
- * SPDX-FileCopyrightText: 2025 Smooth-E
+ * SPDX-FileCopyrightText: 2025-2026 Smooth-E
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
