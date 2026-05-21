@@ -1,6 +1,6 @@
 /*
  * This file is part of Captain's Log.
- * SPDX-FileCopyrightText: 2025 Smooth-E
+ * SPDX-FileCopyrightText: 2025-2026 Smooth-E
  * SPDX-FileCopyrightText: 2020-2026 Mirian Margiani
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
@@ -50,7 +50,7 @@ A.AboutPageBase {
     description: qsTr("A simple diary application for keeping track of your thoughts.")
     
     mainAttributions: [
-        "2025-2026 Smooth-E",
+        "2025-2026 Smooth‑E",
         "2020-%1 Mirian Margiani".arg((new Date()).getFullYear()),
         "2020 Gabriel Berkigt"
     ]
@@ -92,11 +92,11 @@ A.AboutPageBase {
             groups: [
                 A.ContributionGroup {
                     title: qsTr("Aurora OS Port")
-                    entries: ["Smooth-E"]
+                    entries: ["Smooth‑E"]
                 },
                 A.ContributionGroup {
                     title: qsTr("Programming")
-                    entries: ["Mirian Margiani", "Gabriel Berkigt", "Smooth-E"]
+                    entries: ["Mirian Margiani", "Gabriel Berkigt", "Smooth‑E"]
                 },
                 A.ContributionGroup {
                     title: qsTr("Icon Design")
