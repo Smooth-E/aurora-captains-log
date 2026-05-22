@@ -10,6 +10,15 @@ import "modules/Opal/About"
 
 ChangelogList {
     ChangelogItem {
+        version: "4.2.1.3-1"
+        date: "2026-05-23"
+        paragraphs: [
+            "- Используется cpython 3.8.20 для большей совместимости<br>" +
+            "- Внутренние оптимизации и улучшения"
+        ]
+    }
+    
+    ChangelogItem {
         version: "4.2.1.2-1"
         date: "2026-03-11"
         paragraphs: [
