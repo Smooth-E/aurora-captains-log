@@ -277,7 +277,7 @@
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="118"/>
         <source>Export entries using an extended format that can be converted to PDF using &lt;a href=&quot;https://pandoc.org/&quot;&gt;Pandoc&lt;/a&gt;. This format is not suitable to be printed without further conversion.</source>
-        <translation type="unfinished"></translation>
+        <translation>Einträge in einem erweiterten Format exportieren, das mit &lt;a href=&quot;https://pandoc.org/&quot;&gt;Pandoc&lt;/a&gt; in PDF umgewandelt werden kann. Dieses Format ist nicht fürs direkte Ausdrucken geeignet.</translation>
     </message>
     <message>
         <location filename="../qml/pages/ExportPage.qml" line="127"/>
