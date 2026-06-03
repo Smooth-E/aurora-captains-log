@@ -12,7 +12,7 @@ Name:       harbour-captains-log
 Summary:    Simple Diary application
 Version:    4.2.1
 Release:    1
-Group:      Qt/Qt
+Group:      Applications/Productivity
 License:    GPL-3.0-or-later
 URL:        https://codeberg.org/ichthyosaurus/harbour-captains-log
 Source0:    %{name}-%{version}.tar.bz2
