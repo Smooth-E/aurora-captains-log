@@ -14,7 +14,7 @@ SPDX-License-Identifier: GFDL-1.3-or-later
 | --- |
 | 📦 [RuStore для ОС Аврора](https://www.rustore.ru/osaurora) <br> 🛒 [Аврора Маркет](https://aurorarepos.ru/aurora-5/bortovoi-zurnal) <br> 😼 [Скачать RPM](https://github.com/Smooth-E/aurora-captains-log/releases/latest) |
 
-Этот репозиторий содержит модифицированный код версий 2.0.0 и новее приложения [Captain's Log для SailfishOS](https://github.com/ichthyosaurus/harbour-captains-log). Оригинальное приложение разрабатывалось [AlphaX2](https://github.com/AlphaX2/) и код предыдущих версий доступен [тут](https://github.com/AlphaX2/Captains-Log-Sailfish).
+Этот репозиторий содержит модифицированный код версий 2.0.0 и новее приложения [Captain's Log для SailfishOS](https://codeberg.org/ichthyosaurus/harbour-captains-log). Оригинальное приложение разрабатывалось [AlphaX2](https://github.com/AlphaX2/) и код предыдущих версий доступен [тут](https://github.com/AlphaX2/Captains-Log-Sailfish).
 
 ## Функционал
 
@@ -40,7 +40,7 @@ SPDX-License-Identifier: GFDL-1.3-or-later
 
 ## Поддержать проект
 
-Если у вас есть какие-то вопросы, предложения или вы столкнулись с проблемой при использовании приложения на ОС Аврора, пожалуйста, оставляйте свои комментарии в [трекере GitHub Issues этого репозитория](https://github.com/Smooth-E/aurora-captains-log/issues).
+Если у вас есть какие-то вопросы, предложения или вы столкнулись с проблемой при использовании приложения на ОС Аврора, пожалуйста, оставляйте свои комментарии в [трекере GitHub Issues этого репозитория](https://codeberg.org/Smooth-E/aurora-captains-log/issues).
 
 ## Сборка и предложение изменений
 
@@ -74,14 +74,12 @@ SPDX-License-Identifier: GFDL-1.3-or-later
 
 ## Лицензирование
 
-Этот проект - софт-форк приложения [Бортовой журнал для Sailfish OS](https://codeberg.org/ichthyosaurus/harbour-captains-log). Изменения из астрим-репозитория переодически синхронизируются. Порт основан на ревизии апстрим-репозитория из ветки [main](https://github.com/Smooth-E/aurora-captains-log/tree/main).
-
 - Copyright (С) 2025-2026 Smooth-E
 - Copyright (C) 2020-2026 Mirian Margiani
 - Copyright (C) 2020 AlphaX2
 
 Бортовой журнал - свободное программное обеспечение, которое распространяется под лицензией 
 [GNU General Public License v3 (or later)](https://spdx.org/licenses/GPL-3.0-or-later.html).
-Исходный код доступен [на Github](https://github.com/Smooth-E/aurora-captains-log).
+Исходный код доступен [на Github](https://codeberg.org/Smooth-E/aurora-captains-log).
 Вся сопутствующая документация распространяется под лицензией 
 [GNU Free Documentation License v1.3 (or later)](https://spdx.org/licenses/GFDL-1.3-or-later.html).
