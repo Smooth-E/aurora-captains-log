@@ -7,12 +7,12 @@ Name:       moe.smoothie.captainslog
 
 %define _buildhost Aurora Build Engine
 
-Summary:    Простое приложение-дневник
-Version:    4.2.1.3
+Summary:    Бортовой журнал
+Version:    4.2.1.4
 Release:    1
 Group:      Applications/Productivity
 License:    GPL-3.0-or-later
-URL:        https://github.com/Smooth-E/aurora-captains-log
+URL:        https://github.com/salty-smoothie/aurora-captains-log
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-captains-log.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9

@@ -39,3 +39,6 @@ TODO
 libs/opal-translations
 libs/opal-docs
 dist/packages
+
+# WSL metadata files
+*:Zone.Identifier
